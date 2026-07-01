@@ -1,0 +1,4 @@
+services:
+  postgres:
+    ports:
+      - "5442:5432"
