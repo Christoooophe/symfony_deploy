@@ -1,3 +1,5 @@
 services:
   prod:
-    build: .
+    build:
+      context: ../../
+      dockerfile: docker/prod/Dockerfile
